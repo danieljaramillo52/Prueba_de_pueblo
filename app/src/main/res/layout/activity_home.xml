@@ -13,12 +13,62 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.7"
         android:text="SONSON ANTIOQUIA"
         android:textAlignment="center"
         android:textSize="24dp"
-        android:textStyle="bold"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/botonhoteles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botonredondo"
+        android:text="Hoteles"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintVertical_bias="0.050" />
+
+    <Button
+        android:id="@+id/botonrestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botonredondo"
+        android:text="Restaurantes"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botonhoteles"
+        app:layout_constraintVertical_bias="0.050" />
+
+    <Button
+        android:id="@+id/botonturismo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botonredondo"
+        android:padding="10dp"
+        android:text="Restaurantes"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botonrestaurantes"
+        app:layout_constraintVertical_bias="0.027" />
 
     <ImageView
         android:id="@+id/logo"
@@ -41,5 +91,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:src="@drawable/pajaros"
         app:layout_constraintVertical_bias="1"/>
+
+    <ImageView
+        android:id="@+id/montañas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/montañas"
+        app:layout_constraintBottom_toBottomOf="@id/silueta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
