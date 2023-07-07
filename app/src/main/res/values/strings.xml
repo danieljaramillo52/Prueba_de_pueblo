@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">VengaAmipueblo3</string>
+
+    <string name="descripcionhoteles">
+        En Sonson Antioquia Colombia, encontraras hoteles y hospedajes diversos
+        $90000 COP por noche, exclentes habitaciones con la mejor ubicación cerca
+        a la plaza principal del parque de sonson.
+    </string>
+
+    
 </resources>
