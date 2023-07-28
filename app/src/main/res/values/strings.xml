@@ -7,5 +7,9 @@
         a la plaza principal del parque de sonson.
     </string>
 
-    
+    <string name="descripcionrestaurante">
+        En sonson antioquia hay muchos restaurantes, con todas las delicias que ofrece un sitio que tiene
+        todos los pisos termicos ven y prueba nuestra culinaria.
+    </string>
+
 </resources>

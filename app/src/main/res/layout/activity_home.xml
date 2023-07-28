@@ -26,7 +26,7 @@
         android:id="@+id/botonhoteles"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/botonredondo"
+        android:backgroundTint="@color/blue"
         android:text="Hoteles"
         android:textColor="@color/white"
         android:textSize="22dp"
