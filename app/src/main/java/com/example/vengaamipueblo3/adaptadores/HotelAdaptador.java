@@ -57,7 +57,9 @@ public class HotelAdaptador extends RecyclerView.Adapter<HotelAdaptador.viewHold
 
         public void actualizarDatos(MoldeHotel moldeHotel) {
             fotodelHotel.setImageResource(moldeHotel.getFoto());
-
+            nombreHotel.setText(moldeHotel.getNombre());
+            precioHotel.setText(moldeHotel.getPrecio());
         }
     }
 }
+

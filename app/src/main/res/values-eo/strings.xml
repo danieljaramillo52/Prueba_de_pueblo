@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VengaAmipueblo3</string>
+
+    <string name="descripcionhoteles">
+        En Sonson Antioquia Kolombio, vi trovos diversajn hotelojn kaj loĝejojn
+        $90,000 COP por nokto, bonegaj ĉambroj kun la plej bona loko proksime
+        al la ĉefplaco de la sonson-parko.
+    </string>
+
+    <string name="descripcionrestaurante">
+        En sonson Antioquia estas multaj restoracioj, kun ĉiuj bongustaĵoj, kiuj ofertas lokon, kiu havas
+        ĉiuj termikaj etajoj ven kaj provas niajn kuirartojn.
+     </string>
+
+    <string name="descripcionsitio">
+        En sonson antioquia turismaj lokoj vi povas viziti. Monteto de la malnova, Capiro, Paramo, Domo-Muzeo
+        de la geavoj, Religia Muzeo, Muzeo de la Maizo-Festiloj inter aliaj turismaj lokoj.
+    </string>
+
+    <string name="opcion1">hispana</string>
+    <string name="opcion2">la angla</string>
+    <string name="opcion3">esperanto</string>
+    <string name="opcion4">Pri kiel</string>
+</resources>

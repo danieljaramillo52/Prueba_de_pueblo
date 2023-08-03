@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VengaAmipueblo3</string>
+
+    <string name="descripcionhoteles">
+        In Sonson Antioquia Colombia, you will find various hotels and lodgings
+        $90,000 COP per night, excellent rooms with the best location nearby
+        to the main square of the sonson park.
+    </string>
+
+    <string name="descripcionrestaurante">
+        In sonson Antioquia there are many restaurants, with all the delicacies that offer a place that has
+        all thermal smalls come and try our cuisines.
+     </string>
+
+    <string name="descripcionsitio">
+        In sonson antioquia tourist sites you can visit. Hill of the old, Capiro, Paramo, House Museum
+        of the grandparents, Religious Museum, Museum of the Corn Festivals among other tourist sites.
+    </string>
+
+    <string name="opcion1">Spañish</string>
+    <string name="opcion2">English</string>
+    <string name="opcion3">lingvo</string>
+    <string name="opcion4">About Us</string>
+</resources>

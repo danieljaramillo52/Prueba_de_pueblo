@@ -1,18 +1,20 @@
 package com.example.vengaamipueblo3.moldes;
 
-public class MoldeHotel {
+public class MoldeRestaurantes {
 
-        private String precio;
-        private int foto;
-        private  String nombre;
+    private String precio;
 
-    public MoldeHotel() {
+    private String nombre;
+
+    private int foto;
+
+    public MoldeRestaurantes() {
     }
 
-    public MoldeHotel(String precio, int foto, String nombre) {
+    public MoldeRestaurantes(String precio, String nombre, int foto) {
         this.precio = precio;
-        this.foto = foto;
         this.nombre = nombre;
+        this.foto = foto;
     }
 
     public String getPrecio() {
@@ -23,19 +25,19 @@ public class MoldeHotel {
         this.precio = precio;
     }
 
-    public int getFoto() {
-        return foto;
-    }
-
-    public void setFoto(int foto) {
-        this.foto = foto;
-    }
-
     public String getNombre() {
         return nombre;
     }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getFoto() {
+        return foto;
+    }
+
+    public void setFoto(int foto) {
+        this.foto = foto;
     }
 }

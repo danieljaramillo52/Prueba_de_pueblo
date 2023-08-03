@@ -12,4 +12,15 @@
         todos los pisos termicos ven y prueba nuestra culinaria.
     </string>
 
+    <string name="descripcionsitio">
+        En sonson antioquia sitios turisticos puedes visitar. Cerro de la vieja, Capiro , Paramo , Museo casa
+        de los abuelos , Museo religioso, Museo fiestas del Maiz entre otros sitios turisticos.
+    </string>
+
+    <string name="opcion1">Español</string>
+    <string name="opcion2">Ingles</string>
+    <string name="opcion3">Esperanto</string>
+    <string name="opcion4">Acerca de</string>
+
+
 </resources>
