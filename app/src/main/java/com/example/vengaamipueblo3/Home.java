@@ -144,13 +144,13 @@ public class Home extends AppCompatActivity {
         }*/
         return super.onOptionsItemSelected(item);
     }
-    public void lenguageChange(String lenguaje){
-        Locale locale = new Locale(lenguaje);
+    public void lenguageChange(String idioma) {
+        Locale lenguaje=new Locale(idioma);
+        Locale.setDefault(lenguaje);
 
-        Resources resources = getResources();
-        Configuration configuration = resources.getConfiguration();
-        configuration.setLocale(locale);
+        Configuration configurationTelefono=getResources().getConfiguration();
+        configurationTelefono.locale=lenguaje;
 
-        getBaseContext().getResources().updateConfiguration(new Configuration(),getBaseContext().getResources().getDisplayMetrics());
+        getBaseContext().getResources().updateConfiguration(configurationTelefono,getBaseContext().getResources().getDisplayMetrics());
     }
-}
+    }
