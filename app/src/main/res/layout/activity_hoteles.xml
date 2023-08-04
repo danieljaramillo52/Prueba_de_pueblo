@@ -7,21 +7,40 @@
     android:background="@drawable/fondohoteles"
     tools:context=".Hoteles">
 
-    <TextView
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <Button
+        android:id="@+id/botonvermashoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver mas"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.0"/>
+
+    <TextView
+        android:id="@+id/Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/descripcionhoteles"
-        android:layout_marginHorizontal="20dp"
-        android:textAlignment="center"
-        app:layout_constraintVertical_bias="0.06"
-        android:textSize="20dp"
-        android:padding="10dp"
-        android:textStyle="bold"
-        android:autoSizeTextType="uniform"
-        android:fontFamily="sans-serif-condensed-light"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:textColor="@color/black"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

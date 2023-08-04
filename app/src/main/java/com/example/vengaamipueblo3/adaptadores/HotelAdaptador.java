@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.vengaamipueblo3.R;
 import com.example.vengaamipueblo3.moldes.MoldeHotel;
-
 import java.util.ArrayList;
 
 public class HotelAdaptador extends RecyclerView.Adapter<HotelAdaptador.viewHolder>{
@@ -24,7 +23,6 @@ public class HotelAdaptador extends RecyclerView.Adapter<HotelAdaptador.viewHold
     public HotelAdaptador(ArrayList<MoldeHotel> listaHoteles) {
         this.listaHoteles = listaHoteles;
     }
-
     @NonNull
     @Override
     public HotelAdaptador.viewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -39,7 +37,7 @@ public class HotelAdaptador extends RecyclerView.Adapter<HotelAdaptador.viewHold
     }
 
     @Override
-    public int getItemCount() {
+    public int getItemCount(){
         return listaHoteles.size();
     }
 
@@ -48,11 +46,11 @@ public class HotelAdaptador extends RecyclerView.Adapter<HotelAdaptador.viewHold
         TextView precioHotel;
         ImageView fotodelHotel;
 
-        public viewHolder(@NonNull View itemView) {
-            super(itemView);
-            fotodelHotel= itemView.findViewById(R.id.fotoitem);
-            nombreHotel= itemView.findViewById(R.id.tituloitem);
-            precioHotel = itemView.findViewById(R.id.precioitem);
+        public viewHolder(@NonNull View item) {
+            super(item);
+            fotodelHotel= item.findViewById(R.id.fotoitem);
+            nombreHotel= item.findViewById(R.id.tituloitem);
+            precioHotel = item.findViewById(R.id.precioitem);
         }
 
         public void actualizarDatos(MoldeHotel moldeHotel) {

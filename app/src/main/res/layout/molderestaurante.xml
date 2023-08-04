@@ -2,46 +2,47 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/aliceblue"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
-        android:id="@+id/fotoitem"
+        android:id="@+id/fotoitem1"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/hotel4"
-        app:layout_constraintVertical_bias="0"/>
-
-    <TextView
-        android:id="@+id/tituloitem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/fotoitem"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        android:text="HOTEL DESCANSO DEL VIAJERO"
-        android:textSize="24dp"
-        android:textColor="@color/black"
-        android:layout_marginHorizontal="15dp"/>
+        android:src="@drawable/hoteles3"
+        app:layout_constraintVertical_bias="0"
+        />
 
     <TextView
-        android:id="@+id/precioitem"
+        android:id="@+id/tituloitem1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tituloitem"
+        app:layout_constraintTop_toBottomOf="@id/fotoitem1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        android:text="90000"
+        app:layout_constraintVertical_bias="0.05"
+        android:text="Restaurante buena comida"
         android:textSize="24dp"
         android:textColor="@color/black"
-        android:layout_marginHorizontal="15dp"/>
-
+        android:layout_marginHorizontal="15dp"
+        />
+    <TextView
+        android:id="@+id/precioitem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tituloitem1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:text="50000"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="15dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

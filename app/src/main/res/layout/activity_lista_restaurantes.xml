@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListaHoteles">
+    tools:context=".ListaRestaurantes">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/listadinamicahoteles"
+        android:id="@+id/listadinamicarestaurantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
