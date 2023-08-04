@@ -106,4 +106,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Los sitios turísticos de Sonson, Antioquia, te invitan a explorar su rica herencia y belleza natural. Desde la majestuosidad de la Iglesia de Nuestra Señora de Chiquinquirá hasta la serenidad de la Cascada El Chorro, encontrarás lugares llenos de encanto."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
