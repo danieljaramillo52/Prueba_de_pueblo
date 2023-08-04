@@ -18,19 +18,20 @@ public class ListaSitios extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listasitios);
-        recyclerSitios=findViewById(R.id.listadinamicasitios);
-        recyclerSitios.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL,false));
+        recyclerSitios = findViewById(R.id.listadinamicasitios);
+        recyclerSitios.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL, false));
 
         crearlista();
         SitioAdaptador adaptador=new SitioAdaptador(listaSitios);
         recyclerSitios.setAdapter(adaptador);
     }
     public void crearlista(){
-        listaSitios.add(new MoldeSitios("250000",R.drawable.hoteles3,"Restaurante Hostal el tesoro"));
-        listaSitios.add(new MoldeSitios("350000",R.drawable.hoteles3,"Restaurante Hostal el tesoro"));
-        listaSitios.add(new MoldeSitios("450000",R.drawable.hoteles3,"Restaurante Hostal el tesoro"));
-        listaSitios.add(new MoldeSitios("550000",R.drawable.hoteles3,"Restaurante Hostal el tesoro"));
-        listaSitios.add(new MoldeSitios("650000",R.drawable.hoteles3,"Restaurante Hostal el tesoro"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.iglesia,"Iglesia de Nuestra Señora de Chiquinquirá"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.cascada,"Cascada El Chorro:"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.samana,"Reserva Natural Cañón del Río Samaná"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.parquedesonson,"Parque Principal de Sonson:"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.miradorparamodesonson,"Mirador El Calvario"));
 
     }
+
 }

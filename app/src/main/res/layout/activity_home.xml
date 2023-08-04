@@ -19,6 +19,7 @@
         android:text="SONSON ANTIOQUIA"
         android:textAlignment="center"
         android:textSize="24dp"
+        android:textColor="@color/black"
         android:textStyle="bold"/>
 
 
