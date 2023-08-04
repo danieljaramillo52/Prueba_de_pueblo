@@ -20,8 +20,8 @@ public class Sitios extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Sitios.this, ListaSitios.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(Sitios.this, ListaSitios.class);
+                startActivity(intent1);
             }
         });
     }

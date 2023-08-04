@@ -22,7 +22,7 @@ public class Restaurantes extends AppCompatActivity {
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Restaurantes.this, ListaHoteles.class);
+                Intent intent = new Intent(Restaurantes.this, ListaRestaurantes.class);
                 startActivity(intent);
             }
         });

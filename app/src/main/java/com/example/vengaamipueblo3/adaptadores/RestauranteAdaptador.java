@@ -48,17 +48,21 @@ public class RestauranteAdaptador extends RecyclerView.Adapter<RestauranteAdapta
         TextView nombreRestaurante;
         TextView precioRestaurante;
         ImageView fotoRestaurante;
+        TextView descripcionRestaurante;
 
         public viewHolder(View item){
             super(item);
             fotoRestaurante=item.findViewById(R.id.fotoitem1);
             nombreRestaurante=item.findViewById(R.id.tituloitem1);
             precioRestaurante=item.findViewById(R.id.precioitem1);
+            descripcionRestaurante=item.findViewById(R.id.descripcionitem1);
         }
         public void actualizarDatos(MoldeRestaurantes moldeRestaurantes){
             fotoRestaurante.setImageResource(moldeRestaurantes.getFoto());
             nombreRestaurante.setText(moldeRestaurantes.getNombre());
             precioRestaurante.setText(moldeRestaurantes.getPrecio());
+            descripcionRestaurante.setText(moldeRestaurantes.getDescripcion());
+
         }
     }
 }

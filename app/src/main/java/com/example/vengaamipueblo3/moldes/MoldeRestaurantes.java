@@ -8,13 +8,15 @@ public class MoldeRestaurantes {
 
     private int foto;
 
+    private String descripcion;
     public MoldeRestaurantes() {
     }
 
-    public MoldeRestaurantes(String precio, String nombre, int foto) {
+    public MoldeRestaurantes(String precio, String nombre, int foto, String descripcion) {
         this.precio = precio;
         this.nombre = nombre;
         this.foto = foto;
+        this.descripcion = descripcion;
     }
 
     public String getPrecio() {
@@ -39,5 +41,12 @@ public class MoldeRestaurantes {
 
     public void setFoto(int foto) {
         this.foto = foto;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {this.descripcion = descripcion;
     }
 }

@@ -20,7 +20,7 @@
             android:name=".ListaHoteles"
             android:exported="false" />
         <activity
-            android:name=".Sitios"
+            android:name=".ListaSitios"
             android:exported="false" />
         <activity
             android:name=".Restaurantes"

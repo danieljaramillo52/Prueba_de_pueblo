@@ -13,6 +13,7 @@ public class MoldeHotel {
         this.precio = precio;
         this.foto = foto;
         this.nombre = nombre;
+
     }
 
     public String getPrecio() {
@@ -38,4 +39,5 @@ public class MoldeHotel {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
 }
